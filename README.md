@@ -21,17 +21,22 @@ bash install.sh conda_install_path pytracking
 ```
 
 #### Download the pre-trained networks
-You can download the models from the [Baidu cloud link](https://pan.baidu.com/s/1aayqXtFBeqggeZKS2dMnxA), the extraction code is '6ka4'. Then put the model files 'JcatNet.pth.tar' to the subfolder 'pytracking/networks'.
+You can download the models from the [Baidu cloud link](https://pan.baidu.com/s/1mb2bP-4OAW2onoI-2wInmg?pwd=vl81), the extraction code is 'vl81'. Then put the model files 'SegmNet.pth.tar and IoUnet.pth.tar' to the subfolder 'pytracking/networks'.
 
 ## Testing the tracker
-There are the [raw resullts](https://github.com/Yang428/JCAT/tree/master/resultsOnBenchmarks) on six datasets. 
-1) Download the testing datasets Got-10k, TrackingNet, VOT2016, VOT2018, VOT2019 and VOT2020 from the following Baidu cloud links.
+There are the [raw resullts](https://github.com/Yang428/FEAST/tree/master/resultsOnBenchmarks) on eleven datasets. 
+1) Download the testing datasets Got-10k, TrackingNet, VOT2016, VOT2018, VOT2019, VOT2020, OTB100, UAV123, LaSOT, NFS and TCL128 from the following Baidu cloud links.
 * [Got-10k](https://pan.baidu.com/s/1t_PvpIicHc0U9yR4upf-cA), the extraction code is '78hq'.
 * [TrackingNet](https://pan.baidu.com/s/1BKtc4ndh_QrMiXF4fBB2sQ), the extraction code is '5pj8'.
 * [VOT2016](https://pan.baidu.com/s/1iU88Aqq9mvv9V4ZwY4gUuw), the extraction code is '8f6w'.
 * [VOT2018](https://pan.baidu.com/s/1ztAfNwahpDBDssnEYONDuw), the extraction code is 'jsgt'.
 * [VOT2019](https://pan.baidu.com/s/1vf7l4sQMCxZY_fDsHkuwTA), the extraction code is '61kh'.
 * [VOT2020](https://pan.baidu.com/s/16PFiEdnYQDIGh4ZDxeNB_w), the extraction code is 'kdag'.
+* [OTB100]
+* [UAV123]
+* [LaSOT]
+* [NFS]
+* [TCL128]
 * Or you can download almost all tracking datasets from this web [link](https://blog.csdn.net/laizi_laizi/article/details/105447947#VisDrone_77).
 
 2) Change the following paths to you own paths.
