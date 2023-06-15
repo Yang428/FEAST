@@ -1,7 +1,10 @@
 # FEAST Tracker
 
 The main codes of the FEAST tracker will be available as soon as possible.
+
+## Demo
 ![image](https://github.com/Yang428/FEAST/blob/master/resultsOnBenchmarks/Trans.gif)
+
 ## Running Environments
 * Pytorch 1.1.0, Python 3.6.12, Cuda 9.0, torchvision 0.3.0, cudatoolkit 9.0, Matlab R2016b.
 * Ubuntu 16.04, NVIDIA GeForce GTX 1080Ti, i7-6700K CPU @ 4.00GHz.
